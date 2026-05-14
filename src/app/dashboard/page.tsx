@@ -13,7 +13,7 @@ export default function Dashboard() {
           <div className="flex gap-4">
             <div className="flex items-center gap-2 text-sm text-slate-600 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200">
               <div className="w-2 h-2 rounded-full bg-[#96D800] animate-pulse"></div>
-              Singpass Gateway Active
+              School Gateway Active
             </div>
             <div className="w-10 h-10 rounded-full bg-[#0F4C5C] flex items-center justify-center text-white font-bold">
               MOE
@@ -27,7 +27,7 @@ export default function Dashboard() {
             onClick={() => setActiveTab("admissions")}
             className={`px-4 py-2 font-medium rounded-lg transition-colors ${activeTab === "admissions" ? "bg-[#0F4C5C] text-white" : "text-slate-600 hover:bg-slate-200"}`}
           >
-            Intake Overview (AY2024)
+            Intake Overview (AY2026)
           </button>
           <button 
             onClick={() => setActiveTab("facilities")}
@@ -70,7 +70,7 @@ export default function Dashboard() {
                 <h2 className="text-xl font-bold text-[#0A2342] mb-4">System Health</h2>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
-                    <span className="text-sm font-medium text-slate-600">Myinfo API Sync</span>
+                    <span className="text-sm font-medium text-slate-600">Internal Data Sync</span>
                     <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-bold">100% Uptime</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
